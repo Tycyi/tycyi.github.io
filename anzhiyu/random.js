@@ -1,1 +1,1 @@
-var posts=["2023/07/20/hello-world/","2023/07/21/卷积神经网络(CNN)原理/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
+var posts=["2023/07/20/hello-world/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
