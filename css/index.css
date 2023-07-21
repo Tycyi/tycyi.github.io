@@ -341,6 +341,9 @@ hr:before,
 .anzhiyu-shake:hover {
   animation: shake 0.8s;
 }
+.avatar-img {
+  animation: avatar_turn_around 2s linear infinite;
+}
 .reward-main {
   animation: donate_effcet 0.3s 0.1s ease both;
 }
@@ -5673,7 +5676,7 @@ h1.page-title + .tag-cloud-list {
 }
 #footer-wrap {
   position: relative;
-  padding: 40px 20px 0;
+  padding: 40px 20px;
   color: var(--light-grey);
   text-align: center;
 }
